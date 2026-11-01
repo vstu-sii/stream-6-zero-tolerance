@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "L1",
+    "variant": "A",
+    "reviewer": "assistant, manual inspection",
+    "evaluated_field": "student_message",
+    "mathematically_correct": 1,
+    "no_solution_leak": 1,
+    "actionability_0_to_2": 1,
+    "note": "Корректно, но предлагает и упрощение, и более сложное правило Лопиталя без выбора шага."
+  },
+  {
+    "case_id": "L1",
+    "variant": "B",
+    "reviewer": "assistant, manual inspection",
+    "evaluated_field": "student_message",
+    "mathematically_correct": 1,
+    "no_solution_leak": 1,
+    "actionability_0_to_2": 2,
+    "note": "Конкретно напоминает разность квадратов."
+  },
+  {
+    "case_id": "L1",
+    "variant": "C",
+    "reviewer": "assistant, manual inspection",
+    "evaluated_field": "student_message",
+    "mathematically_correct": 1,
+    "no_solution_leak": 1,
+    "actionability_0_to_2": 1,
+    "note": "Корректная, но общая рекомендация упростить."
+  },
+  {
+    "case_id": "M1",
+    "variant": "A",
+    "reviewer": "assistant, manual inspection",
+    "evaluated_field": "student_message",
+    "mathematically_correct": 1,
+    "no_solution_leak": 1,
+    "actionability_0_to_2": 2,
+    "note": "Предлагает начать с первого элемента."
+  },
+  {
+    "case_id": "M1",
+    "variant": "B",
+    "reviewer": "assistant, manual inspection",
+    "evaluated_field": "student_message",
+    "mathematically_correct": 0,
+    "no_solution_leak": 1,
+    "actionability_0_to_2": 0,
+    "note": "Неверное обобщение: каждый элемент якобы вычисляется через первую строку. Нужна соответствующая i-я строка."
+  },
+  {
+    "case_id": "M1",
+    "variant": "C",
+    "reviewer": "assistant, manual inspection",
+    "evaluated_field": "student_message",
+    "mathematically_correct": 1,
+    "no_solution_leak": 1,
+    "actionability_0_to_2": 2,
+    "note": "Корректно описывает вычисление первого элемента; не формулирует полный общий алгоритм."
+  }
+]

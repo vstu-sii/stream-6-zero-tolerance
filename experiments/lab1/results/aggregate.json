@@ -1,0 +1,41 @@
+[
+  {
+    "variant": "A",
+    "results": 18,
+    "first_error_correct": 8,
+    "error_type_correct": 6,
+    "hint_correct": 17,
+    "no_leak": 18,
+    "calls": 18,
+    "prompt_tokens": 6330,
+    "output_tokens": 2452,
+    "wall_seconds": 35.6707478999997,
+    "false_alarms": 6
+  },
+  {
+    "variant": "B",
+    "results": 18,
+    "first_error_correct": 10,
+    "error_type_correct": 6,
+    "hint_correct": 17,
+    "no_leak": 18,
+    "calls": 18,
+    "prompt_tokens": 7126,
+    "output_tokens": 2290,
+    "wall_seconds": 33.232258899999124,
+    "false_alarms": 6
+  },
+  {
+    "variant": "C",
+    "results": 18,
+    "first_error_correct": 12,
+    "error_type_correct": 8,
+    "hint_correct": 18,
+    "no_leak": 18,
+    "calls": 36,
+    "prompt_tokens": 14873,
+    "output_tokens": 3962,
+    "wall_seconds": 58.1688135000004,
+    "false_alarms": 4
+  }
+]

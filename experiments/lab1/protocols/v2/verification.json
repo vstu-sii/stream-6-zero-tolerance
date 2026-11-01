@@ -1,0 +1,8 @@
+{
+  "original_files_hash_verified": 4,
+  "new_requests": 8,
+  "new_responses": 8,
+  "schema_checks": "positive and negative passed",
+  "references_checked": 9,
+  "additional_inference": false
+}
