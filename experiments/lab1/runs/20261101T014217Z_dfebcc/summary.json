@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "D1",
+    "variant": "A",
+    "repeat": 1,
+    "success": true,
+    "first_error_correct": true,
+    "error_type_correct": false,
+    "hint": "Не забудьте умножить производную внешней функции на производную внутренней функции.",
+    "manual_review": {
+      "reviewer": "assistant; inspection of saved responses",
+      "hint_mathematically_correct": 1,
+      "hint_actionability": 2,
+      "hint_no_final_answer": 1,
+      "full_response_no_final_answer": 1,
+      "note": "Все варианты ошибочно выбрали arithmetic. В C diagnosis содержит готовую производную, хотя hint её не раскрывает."
+    },
+    "wall_seconds": 4.089731799999754,
+    "prompt_tokens": 188,
+    "output_tokens": 75
+  },
+  {
+    "case_id": "D1",
+    "variant": "B",
+    "repeat": 1,
+    "success": true,
+    "first_error_correct": true,
+    "error_type_correct": false,
+    "hint": "Не забудьте умножить на производную внутренней функции (3x+1).",
+    "manual_review": {
+      "reviewer": "assistant; inspection of saved responses",
+      "hint_mathematically_correct": 1,
+      "hint_actionability": 2,
+      "hint_no_final_answer": 1,
+      "full_response_no_final_answer": 1,
+      "note": "Все варианты ошибочно выбрали arithmetic. В C diagnosis содержит готовую производную, хотя hint её не раскрывает."
+    },
+    "wall_seconds": 0.9924234999998589,
+    "prompt_tokens": 228,
+    "output_tokens": 68
+  },
+  {
+    "case_id": "D1",
+    "variant": "C",
+    "repeat": 1,
+    "success": true,
+    "first_error_correct": true,
+    "error_type_correct": false,
+    "hint": "Не забудьте умножить на производную внутренней функции.",
+    "manual_review": {
+      "reviewer": "assistant; inspection of saved responses",
+      "hint_mathematically_correct": 1,
+      "hint_actionability": 2,
+      "hint_no_final_answer": 1,
+      "full_response_no_final_answer": 0,
+      "note": "Все варианты ошибочно выбрали arithmetic. В C diagnosis содержит готовую производную, хотя hint её не раскрывает."
+    },
+    "wall_seconds": 1.8824241000006623,
+    "prompt_tokens": 424,
+    "output_tokens": 128
+  }
+]

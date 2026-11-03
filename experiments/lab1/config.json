@@ -1,0 +1,15 @@
+{
+  "adapter": "ollama",
+  "base_url": "http://localhost:11434",
+  "model": "qwen3:8b",
+  "think": false,
+  "options": {
+    "temperature": 0.2,
+    "top_p": 0.9,
+    "top_k": 20,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 700
+  },
+  "timeout_seconds": 180
+}
